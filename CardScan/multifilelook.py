@@ -2,7 +2,7 @@ import os, json
 text = input("Please enter text: ")
 print(f"You have entered \"{text}\" word to search.")
 current_path = os.getcwd()
-path = current_path+'\json\AllSetFiles(1)'
+path = current_path+'/json/AllSetFiles(1)'
 global foundeffect, setfile
 setfile = "set"
 foundeffect = 'temp'
